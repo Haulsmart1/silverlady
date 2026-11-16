@@ -21,4 +21,6 @@ for(const id of ['transport','freight','wizard-labs','research','development'])a
 assert.equal((group.match(/class="portfolio-card"/g)||[]).length,8);
 assert(!group.includes('Fast Freight Solutions'));
 const sitemap=await readFile('src/sitemap.xml','utf8');assert(sitemap.includes('https://www.silverladyholdings.com/our-group/'));
-console.log(`PASS: ${files.length} source files; ${links} internal page/asset links; metadata, JSON-LD, sections and development labels.`);
+console.log(`PASS: ${files.length} source files; ${links} internal page/asset links; metadata, JSON-LD, sections and product descriptions.`);
+
+assert(!/in development|being prepared commercially|development-stage/i.test(group));
