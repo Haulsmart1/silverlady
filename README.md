@@ -18,4 +18,4 @@ Deploy the contents of `src/` with its existing `vercel.json` to project `silver
 
 ## Content decisions
 
-Wizard Labs is the SaaS and AI division of Silver Lady Holdings, without a separate incorporation claim. Product cards use neutral descriptions and categories, without development labels or new availability claims. Crypto Ninja links to group enquiries because no public product URL was verified. Cobweb Defence remains a research concept. The unverified Fast Freight Solutions entry is excluded.
+Wizard Labs is the SaaS and AI division of Silver Lady Holdings, without a separate incorporation claim. Product cards use neutral descriptions and categories, without development labels or new availability claims. Crypto Ninja links to https://www.crypto-ninja.app/, supplied by the owner. Cobweb Defence remains a research concept. The unverified Fast Freight Solutions entry is excluded.
